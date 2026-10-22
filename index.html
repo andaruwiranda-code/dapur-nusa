@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dapur Nusa menyajikan makanan rumahan yang lezat, praktis, dan terjangkau.">
+  <title>Dapur Nusa — Rasa Rumahan, Hati Senang</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="topbar">
+    <p>Masakan rumahan yang dibuat dengan sepenuh hati <span>♡</span></p>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Dapur Nusa, beranda">
+      <span class="brand-mark">DN</span>
+      <span class="brand-name">dapur<span>nusa.</span><small>HANGAT DI SETIAP SUAPAN</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a class="header-cta" href="#menu">Lihat Menu <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> DIBUAT SEGAR SETIAP HARI</p>
+        <h1>Rasa rumahan,<br>hangat di <em>hati.</em></h1>
+        <p class="hero-description">Nikmati hidangan favorit dengan rasa yang akrab, bahan pilihan, dan harga yang bersahabat. Karena makanan enak selalu punya cerita.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Jelajahi Menu <span>→</span></a>
+          <a class="text-link" href="#tentang">Kenali Dapur Nusa <span>↗</span></a>
+        </div>
+        <div class="hero-note">
+          <span class="note-icon">✳</span>
+          <span><strong>Rasa yang bikin rindu</strong><small>Menu sederhana, rasa istimewa.</small></span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/hero-dapur-nusa.png" alt="Aneka masakan rumahan Dapur Nusa di atas meja kayu">
+        <div class="image-label"><span class="label-star">✳</span><span><strong>Fresh & homemade</strong><small>Dimasak dengan sepenuh hati</small></span></div>
+        <div class="floating-stamp">ENAK<br>· JUJUR ·<br>HANGAT</div>
+      </div>
+    </section>
+
+    <section class="promise-row" aria-label="Keunggulan Dapur Nusa">
+      <div><span class="promise-icon">✳</span><span><strong>Bahan pilihan</strong><small>Dipilih dengan teliti</small></span></div>
+      <div><span class="promise-icon">♡</span><span><strong>Dimasak sepenuh hati</strong><small>Rasa rumahan yang akrab</small></span></div>
+      <div><span class="promise-icon">₍ᐢ. .ᐢ₎</span><span><strong>Harga bersahabat</strong><small>Enak tanpa bikin boros</small></span></div>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> DARI DAPUR KAMI</p>
+          <h2>Menu favorit <em>hari ini.</em></h2>
+          <p class="section-description">Pilihan sederhana yang selalu bikin waktu makan lebih menyenangkan.</p>
+        </div>
+        <span class="menu-count">01 — 05 <span>MENU PILIHAN</span></span>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-image image-geprek"><img src="images/hero-dapur-nusa.png" alt="Ayam geprek dengan sambal dan nasi" loading="lazy"><span class="menu-tag">Favorit</span></div>
+          <div class="menu-info"><div class="menu-title-row"><h3>Nasi Ayam Geprek</h3><span class="menu-number">01</span></div><p>Ayam renyah, sambal pedas, dan nasi hangat.</p><div class="menu-bottom"><strong>Rp18.000</strong><a href="#kontak" aria-label="Tanyakan Nasi Ayam Geprek">↗</a></div></div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image image-nasgor"><img src="images/hero-dapur-nusa.png" alt="Nasi goreng dengan telur mata sapi" loading="lazy"><span class="menu-tag">Klasik</span></div>
+          <div class="menu-info"><div class="menu-title-row"><h3>Nasi Goreng</h3><span class="menu-number">02</span></div><p>Nasi goreng gurih dengan telur dan sayuran.</p><div class="menu-bottom"><strong>Rp15.000</strong><a href="#kontak" aria-label="Tanyakan Nasi Goreng">↗</a></div></div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image image-teriyaki"><img src="images/hero-dapur-nusa.png" alt="Rice bowl ayam saus teriyaki" loading="lazy"><span class="menu-tag">Pilihan lezat</span></div>
+          <div class="menu-info"><div class="menu-title-row"><h3>Rice Bowl Teriyaki</h3><span class="menu-number">03</span></div><p>Ayam teriyaki manis gurih dengan nasi hangat.</p><div class="menu-bottom"><strong>Rp20.000</strong><a href="#kontak" aria-label="Tanyakan Rice Bowl Teriyaki">↗</a></div></div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image image-mie"><img src="images/hero-dapur-nusa.png" alt="Mie goreng rumahan dengan sayuran" loading="lazy"><span class="menu-tag">Mengenyangkan</span></div>
+          <div class="menu-info"><div class="menu-title-row"><h3>Mie Goreng</h3><span class="menu-number">04</span></div><p>Mie berbumbu dengan sayuran dan taburan bawang.</p><div class="menu-bottom"><strong>Rp13.000</strong><a href="#kontak" aria-label="Tanyakan Mie Goreng">↗</a></div></div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-image image-lemon"><img src="images/hero-dapur-nusa.png" alt="Es teh lemon dingin dengan irisan lemon" loading="lazy"><span class="menu-tag">Segar</span></div>
+          <div class="menu-info"><div class="menu-title-row"><h3>Es Teh Lemon</h3><span class="menu-number">05</span></div><p>Teh dingin dengan sentuhan lemon menyegarkan.</p><div class="menu-bottom"><strong>Rp7.000</strong><a href="#kontak" aria-label="Tanyakan Es Teh Lemon">↗</a></div></div>
+        </article>
+      </div>
+      <p class="price-note">*Harga dan menu di atas merupakan contoh untuk proyek praktikum.</p>
+    </section>
+
+    <section class="about-section" id="tentang">
+      <div class="about-art"><img src="images/hero-dapur-nusa.png" alt="Hidangan rumahan yang disiapkan dengan sepenuh hati" loading="lazy"><span class="about-seal">DARI DAPUR<br>UNTUK KAMU ♡</span></div>
+      <div class="about-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> CERITA KAMI</p>
+        <h2>Sederhana bahannya,<br>istimewa <em>rasanya.</em></h2>
+        <p>Dapur Nusa adalah konsep UMKM makanan rumahan yang menyajikan menu sehari-hari dengan rasa akrab dan harga bersahabat. Kami percaya, hidangan yang baik bukan harus mewah—yang penting dibuat dengan perhatian.</p>
+        <a class="text-link" href="#kontak">Yuk, kenalan lebih dekat <span>→</span></a>
+      </div>
+    </section>
+    <section class="contact-banner" id="kontak">
+      <div>
+        <p class="eyebrow eyebrow-light">LAGI LAPAR?</p>
+        <h2>Temukan menu favoritmu<br>di <em>Dapur Nusa.</em></h2>
+      </div>
+
+      <a
+        class="button button-light"
+        href="https://t.me/Xvfghgsg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hubungi Kami <span>↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <a class="brand brand-footer" href="#beranda"><span class="brand-mark">DN</span><span class="brand-name">dapur<span>nusa.</span><small>HANGAT DI SETIAP SUAPAN</small></span></a>
+      <p>Makanan sederhana, cerita yang istimewa.</p>
+    </div>
+    <div class="footer-meta">
+      <span>© <span id="year"></span> Dapur Nusa · Proyek Praktikum Cloud Computing</span>
+      <span>Kelompok: <strong>1</strong> · Anggota: <strong>[Arsila Nabila, Atika Rahmawati, Musisdalifah Yuliana, Sissy Andaruwiranda]</strong></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const menuToggle = document.getElementById("menuToggle");
+    const mainNav = document.getElementById("mainNav");
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNav.classList.toggle("nav-open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+    mainNav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("nav-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.textContent = "☰";
+      });
+    });
+  </script>
+</body>
+</html>
